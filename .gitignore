@@ -1,0 +1,34 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# JetBrains
+*.sln.iml
+
+# Resharper
+_ReSharper*/
+
+# User-specific files
+*.DotSettings.user
+
+# Logs
+*.log
+
+# Generated files
+**/obj/**
+**/bin/**

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "UndirectedGraphBuilder": {
+      "commandName": "Project"
+    },
+    "nCad": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\Nanosoft\\nanoCAD x64 25.0\\nCad.exe",
+      "commandLineArgs": "-g $(TargetPath)"
+    }
+  }
+}
