@@ -7,6 +7,11 @@ namespace UndirectedGraphBuilder.App {
         private Dictionary<long, GraphVertexDto> _vertices;
         private Dictionary<long, List<(long neighborId, double weight)>> _connections;
 
+        public GraphPathFinder() {
+            _vertices = new Dictionary<long, GraphVertexDto>();
+            _connections = new Dictionary<long, List<(long, double)>>();
+        }
+
         public void Initialize(List<GraphVertexDto> vertices, List<GraphEdgeDto> edges) {
             _vertices = vertices.ToDictionary(v => v.Id);
             _connections = new Dictionary<long, List<(long, double)>>();

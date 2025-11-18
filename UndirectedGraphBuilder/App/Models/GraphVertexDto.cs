@@ -17,10 +17,6 @@ namespace UndirectedGraphBuilder.App.Models {
             Z = z;
         }
 
-        public override bool Equals(object obj) {
-            return obj is GraphVertexDto dto && Id == dto.Id;
-        }
-
         public override int GetHashCode() {
             return Id.GetHashCode();
         }
